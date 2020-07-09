@@ -7,6 +7,9 @@
  */
 package com.janusgraph.utils;
 
+import java.util.Iterator;
+import java.util.List;
+
 import com.janusgraph.entity.EdgeLabelKey;
 import com.janusgraph.entity.IndexKey;
 import com.janusgraph.entity.IndexPropertyKey;
@@ -14,18 +17,12 @@ import com.janusgraph.entity.PropertyKey;
 import com.janusgraph.entity.Schema;
 import com.janusgraph.entity.VertexLabelKey;
 import com.janusgraph.enums.Mapping;
-import java.util.Iterator;
-import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.janusgraph.core.Multiplicity;
 import org.janusgraph.core.schema.ConsistencyModifier;
 import org.janusgraph.core.schema.EdgeLabelMaker;
 import org.janusgraph.core.schema.JanusGraphManagement;
-import org.janusgraph.core.schema.Parameter;
-import org.janusgraph.core.schema.JanusGraphManagement.IndexBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -80,12 +77,14 @@ public class SchemaBuilder {
     private static void makeEdgeLabel(JanusGraphManagement mgmt, List<EdgeLabelKey> labelKeys) {
         if (CollectionUtils.isNotEmpty(labelKeys)) {
             Iterator var2 = labelKeys.iterator();
-            while(var2.hasNext()) {
+            while (var2.hasNext()) {
                 EdgeLabelKey labelKey = (EdgeLabelKey)var2.next();
                 if (!mgmt.containsEdgeLabel(labelKey.getName())) {
                     EdgeLabelMaker edgeLabelMaker = mgmt.makeEdgeLabel(labelKey.getName());
-                    edgeLabelMaker.multiplicity(labelKey.getMultiplicity() == null ? Multiplicity.MULTI : labelKey.getMultiplicity());
-                    org.janusgraph.core.PropertyKey propertyKey = StringUtils.isBlank(labelKey.getSignature()) ? null : mgmt.getPropertyKey(labelKey.getSignature());
+                    edgeLabelMaker.multiplicity(
+                        labelKey.getMultiplicity() == null ? Multiplicity.MULTI : labelKey.getMultiplicity());
+                    org.janusgraph.core.PropertyKey propertyKey = StringUtils.isBlank(labelKey.getSignature()) ? null
+                        : mgmt.getPropertyKey(labelKey.getSignature());
                     if (propertyKey != null) {
                         edgeLabelMaker.signature(propertyKey);
                     }
@@ -99,45 +98,36 @@ public class SchemaBuilder {
 
     private static void buildIndex(JanusGraphManagement mgmt, List<IndexKey> indexKeys) {
         if (CollectionUtils.isNotEmpty(indexKeys)) {
-            indexKeys.stream().filter((x) -> x.getType() != null).forEach((i) -> {
+            indexKeys.stream().filter(x -> x.getType() != null).forEach((i) -> {
+                // 判断关系类型是否存在
                 if (!mgmt.containsGraphIndex(i.getName())) {
-                    IndexBuilder index = mgmt.buildIndex(i.getName(), i.getType().getClazz());
-                    Iterator var3 = i.getProps().iterator();
-
-                    while(true) {
-                        while(true) {
-                            IndexPropertyKey p;
-                            do {
-                                if (!var3.hasNext()) {
-                                    if (i.isUniqueIndex()) {
-                                        index.unique();
-                                    }
-
-                                    if (i.isCompositeIndex()) {
-                                        mgmt.setConsistency(index.buildCompositeIndex(), i.getConsistencyModifier() == null ? ConsistencyModifier.LOCK : i.getConsistencyModifier());
-                                    }
-
-                                    if (i.isMixedIndex() && StringUtils.isNotBlank(i.getMixedIndexName())) {
-                                        index.buildMixedIndex(i.getMixedIndexName());
-                                    }
-
-                                    return;
-                                }
-
-                                p = (IndexPropertyKey)var3.next();
-                            } while(!mgmt.containsPropertyKey(p.getName()));
-
+                    JanusGraphManagement.IndexBuilder index = mgmt.buildIndex(i.getName(), i.getType().getClazz());
+                    // 处理索引字段
+                    for (IndexPropertyKey p : i.getProps()) {
+                        if (mgmt.containsPropertyKey(p.getName())) {
                             org.janusgraph.core.PropertyKey key = mgmt.getPropertyKey(p.getName());
-                            if (null != p.getMapping() && Mapping.NULL != p.getMapping()) {
-                                index.addKey(key, p.getMapping().getMapping().asParameter());
-                            } else {
+                            if (p.getMapping() == null || Mapping.NULL == p.getMapping()) {
                                 index.addKey(key);
+                            } else {
+                                index.addKey(key, p.getMapping().getMapping().asParameter());
                             }
                         }
+                    }
+                    // 创建唯一性索引
+                    if (i.isUniqueIndex()) {
+                        index.unique();
+                    }
+                    // 创建复合索引
+                    if (i.isCompositeIndex()) {
+                        mgmt.setConsistency(index.buildCompositeIndex(),
+                            i.getConsistencyModifier() == null ? ConsistencyModifier.LOCK : i.getConsistencyModifier());
+                    }
+                    // 创建混合索引
+                    if (i.isMixedIndex() && StringUtils.isNotBlank(i.getMixedIndexName())) {
+                        index.buildMixedIndex(i.getMixedIndexName());
                     }
                 }
             });
         }
-
     }
 }
