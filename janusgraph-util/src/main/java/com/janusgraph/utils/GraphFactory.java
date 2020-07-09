@@ -1,4 +1,9 @@
-package cn.cloudwalk.core.utils;
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+package com.janusgraph.utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,88 +13,100 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-
+import java.util.function.BiConsumer;
+import org.apache.commons.collections.MapUtils;
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource;
 import org.janusgraph.core.JanusGraph;
 import org.janusgraph.core.JanusGraphFactory;
 import org.janusgraph.core.JanusGraphTransaction;
+import org.janusgraph.core.JanusGraphFactory.Builder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-/**
- * JanusGraphFactory, 在使用JanusGraph前, 必须让其初始化完存储库(自动建表等).
- * 
- * @author Shengjun Liu
- * @version 2018-01-15
- *
- */
 public final class GraphFactory implements Serializable {
-  private static final long serialVersionUID = 1L;
-  private JanusGraphFactory.Builder config = null;
-  private JanusGraph graph = null;
+    private static final Logger log = LoggerFactory.getLogger(GraphFactory.class);
+    private static final long serialVersionUID = 1L;
+    private Builder builder = null;
+    private JanusGraph graph = null;
 
-  public GraphFactory() {
-    builderConfigByFile(null);
-  }
-
-  public GraphFactory(String path) {
-    builderConfigByFile(path);
-  }
-
-  public JanusGraphFactory.Builder getConfig() {
-    return config;
-  }
-
-  public JanusGraph getGraph() {
-    return graph;
-  }
-
-  public GraphTraversalSource getG() {
-    return this.graph.traversal();
-  }
-
-  public JanusGraphTransaction getTx() {
-    return this.graph.newTransaction();
-  }
-
-  public void close() {
-    if (null != graph) {
-      try {
-        graph.close();
-      } catch (Exception e) {
-        e.printStackTrace();
-      }
-    }
-  }
-
-  private void builderConfigByFile(String filePath) {
-    InputStream file = null;
-    try {
-      file = (null == filePath) ? this.getClass().getResourceAsStream("/janusgarph.properties")
-          : new FileInputStream(filePath);
-    } catch (FileNotFoundException e) {
-      e.printStackTrace();
-    }
-    Map<String, Object> properties = new HashMap<String, Object>();
-    try {
-      Properties p = new Properties();
-      p.load(file);
-      p.forEach((key, value) -> {
-        properties.put((String) key, value);
-        System.out.println(key + ":::" + value);
-      });
-    } catch (FileNotFoundException e) {
-      e.printStackTrace();
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-    builderConfigByProperties(properties);
-  }
-
-  private void builderConfigByProperties(Map<String, Object> properties) {
-    config = JanusGraphFactory.build();
-    if (null != properties) {
-      properties.forEach((key, value) -> config.set(key, value));
+    public GraphFactory() {
+        this.init((String)null);
     }
 
-    graph = JanusGraphFactory.build().open();
-  }
+    public GraphFactory(String path) {
+        this.init(path);
+    }
+
+    public Builder getBuilder() {
+        return this.builder;
+    }
+
+    public JanusGraph getGraph() {
+        return this.graph;
+    }
+
+    public GraphTraversalSource getG() {
+        return this.graph.traversal();
+    }
+
+    public JanusGraphTransaction getTx() {
+        return this.graph.newTransaction();
+    }
+
+    public void close() {
+        if (null != this.graph) {
+            try {
+                this.graph.close();
+            } catch (Exception var2) {
+                log.error("e:{}", var2);
+            }
+        }
+
+    }
+
+    private void init(String filePath) {
+        log.info("初始化JanusGraph..........");
+        this.builder = JanusGraphFactory.build();
+        Map<String, Object> properties = this.getProperties(filePath);
+        if (MapUtils.isNotEmpty(properties)) {
+            properties.forEach((key, value) -> {
+                this.builder.set(key, value);
+            });
+        }
+
+        this.graph = this.builder.open();
+    }
+
+    private Map<String, Object> getProperties(String filePath) {
+        Object file = null;
+
+        try {
+            file = null == filePath ? this.getClass().getResourceAsStream("/janusgarph.properties") : new FileInputStream(filePath);
+        } catch (FileNotFoundException var17) {
+            log.error("e:{}", var17);
+        }
+
+        Map<String, Object> properties = new HashMap();
+        Properties p = new Properties();
+
+        try {
+            p.load((InputStream)file);
+            p.forEach((key, value) -> {
+                properties.put((String)key, value);
+            });
+        } catch (Exception var15) {
+            log.error("e:{}", var15);
+        } finally {
+            try {
+                if (file != null) {
+                    ((InputStream)file).close();
+                }
+            } catch (IOException var14) {
+                log.error("e:{}", var14);
+            }
+
+        }
+
+        return properties;
+    }
 }

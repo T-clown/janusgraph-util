@@ -1,0 +1,19 @@
+
+B
+java:S1948"'Make "graph" transient or serializable.(Äúÿôüÿÿÿÿ
+>
+java:S1148:"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148P"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148E"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148R"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+C
+java:S1948"(Make "config" transient or serializable.(ÙÆ•Íþÿÿÿÿ
+Z
+java:S2147Q"DCombine this catch with the one at line 79, which has the same body.(ï­£Ä
+c
+java:S2095C"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Öšë¢
+t
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(´Üºúüÿÿÿÿ
