@@ -2,7 +2,9 @@
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
 //
-
+/**
+ * https://github.com/FSixteen/janusgraph-utils.git
+ */
 package com.janusgraph.utils;
 
 import com.janusgraph.entity.EdgeLabelKey;
@@ -78,7 +80,6 @@ public class SchemaBuilder {
     private static void makeEdgeLabel(JanusGraphManagement mgmt, List<EdgeLabelKey> labelKeys) {
         if (CollectionUtils.isNotEmpty(labelKeys)) {
             Iterator var2 = labelKeys.iterator();
-
             while(var2.hasNext()) {
                 EdgeLabelKey labelKey = (EdgeLabelKey)var2.next();
                 if (!mgmt.containsEdgeLabel(labelKey.getName())) {

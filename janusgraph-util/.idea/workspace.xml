@@ -2,43 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3f94793-b966-451e-89b8-ef3f8fffc3e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/enums/IndexType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/janusgraph/demo/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/janusgarph.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/janusgarph.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/JanusgraphUtilsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/entity/EdgeLabelKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/EdgeLabelKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/entity/IndexKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/entity/IndexPropertyKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexPropertyKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/entity/PropertyKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/PropertyKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/entity/Schema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/entity/VertexLabelKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/VertexLabelKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/enums/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/enums/DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/enums/IndexType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/enums/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/enums/Mapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/enums/MixedIndexType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/enums/MixedIndexType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/utils/GraphFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/java/com/janusgraph/utils/SchemaBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/main/resources/janusgarph.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/src/test/java/com/janusgraph/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../janusgraph-utils/注.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../python/basic/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../python/python.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../python/python/__init__.py" beforeDir="false" />
@@ -74,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="266">
+              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding>
                 <element signature="e#0#3123#0" expanded="true" />
               </folding>
@@ -83,14 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="152">
+              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
               <folding>
                 <element signature="e#0#5660#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/janusgarph.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -105,22 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/PropertyKey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="e#0#1614#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="532">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#1308#0" expanded="true" />
               </folding>
@@ -214,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexPropertyKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/PropertyKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/VertexLabelKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/enums/DataType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/enums/IndexType.java" />
@@ -222,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/enums/MixedIndexType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/BuildSchema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java" />
       </list>
     </option>
@@ -251,7 +219,9 @@
     <option name="width" value="1296" />
     <option name="height" value="678" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -299,24 +269,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="janusgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-util" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="janusgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="janusgraph-util" type="b2602c69:ProjectViewProjectNode" />
-              <item name="janusgraph-util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="janusgraph" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -345,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594288279614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594289144023" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -420,12 +372,12 @@
       <workItem from="1594195168076" duration="8069000" />
       <workItem from="1594261611426" duration="1168000" />
       <workItem from="1594280759125" duration="771000" />
-      <workItem from="1594287461625" duration="850000" />
+      <workItem from="1594287461625" duration="1668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10858000" />
+    <option name="totallyTimeSpent" value="11676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -437,9 +389,9 @@
       <window_info id="Learn" order="4" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.261924" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.261924" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.40485075" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.05597015" />
       <window_info anchor="bottom" id="Sequence" order="1" />
       <window_info anchor="bottom" id="CheckStyle" order="2" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5004042" side_tool="true" weight="0.5914179" />
@@ -605,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/janusgarph.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/janusgraph/janusgraph-core/0.5.2/janusgraph-core-0.5.2.jar!/org/janusgraph/diskstorage/configuration/BasicConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -755,16 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="e#0#3123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/janusgraph/janusgraph-core/0.5.2/janusgraph-core-0.5.2.jar!/org/janusgraph/core/schema/EdgeLabelMaker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -772,22 +707,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="532">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <element signature="e#0#5660#0" expanded="true" />
+            <element signature="e#0#1308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/janusgarph.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="57">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
-            <element signature="e#0#1308#0" expanded="true" />
+            <element signature="e#0#3123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#5660#0" expanded="true" />
           </folding>
         </state>
       </provider>
