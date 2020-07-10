@@ -17,6 +17,7 @@ import java.util.Properties;
 import java.util.function.BiConsumer;
 
 import org.apache.commons.collections.MapUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource;
 import org.janusgraph.core.JanusGraph;
 import org.janusgraph.core.JanusGraphFactory;
@@ -32,7 +33,7 @@ public final class GraphFactory implements Closeable, Serializable {
     private JanusGraph graph = null;
 
     public GraphFactory() throws IOException {
-        this.init((String)null);
+        this.init(null);
     }
 
     public GraphFactory(String path) throws IOException {
@@ -79,7 +80,7 @@ public final class GraphFactory implements Closeable, Serializable {
         Map<String, Object> properties = new HashMap();
         Properties p = new Properties();
         try {
-            is = null == filePath ? this.getClass().getResourceAsStream("/janusgarph.properties")
+            is = StringUtils.isBlank(filePath) ? this.getClass().getResourceAsStream("/janusgarph.properties")
                 : new FileInputStream(filePath);
             p.load(is);
             p.forEach((key, value) -> properties.put((String)key, value));
