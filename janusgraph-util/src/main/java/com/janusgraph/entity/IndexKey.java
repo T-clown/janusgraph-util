@@ -15,7 +15,7 @@ public class IndexKey implements Serializable {
   private String name;
   private IndexType type;
   private ConsistencyModifier consistencyModifier;
-  private List<IndexPropertyKey> props;
+  private List<PropertyKey> props;
   private Boolean uniqueIndex;
   private Boolean compositeIndex;
   private Boolean mixedIndex;
@@ -28,7 +28,18 @@ public class IndexKey implements Serializable {
     this.mixedIndex = false;
   }
 
-  public IndexKey(String name, IndexType type, ConsistencyModifier consistencyModifier, List<IndexPropertyKey> props, Boolean uniqueIndex, Boolean compositeIndex, Boolean mixedIndex, String mixedIndexName) {
+  public IndexKey(String name, IndexType type, List<PropertyKey> props, Boolean uniqueIndex, Boolean compositeIndex, Boolean mixedIndex, String mixedIndexName) {
+    this.name = name;
+    this.type = type;
+    this.props = props;
+    this.consistencyModifier = ConsistencyModifier.DEFAULT;
+    this.uniqueIndex = uniqueIndex;
+    this.compositeIndex = compositeIndex;
+    this.mixedIndex = mixedIndex;
+    this.mixedIndexName = mixedIndexName;
+  }
+
+  public IndexKey(String name, IndexType type, ConsistencyModifier consistencyModifier, List<PropertyKey> props, Boolean uniqueIndex, Boolean compositeIndex, Boolean mixedIndex, String mixedIndexName) {
     this.consistencyModifier = ConsistencyModifier.DEFAULT;
     this.uniqueIndex = false;
     this.compositeIndex = false;
@@ -67,11 +78,11 @@ public class IndexKey implements Serializable {
     this.consistencyModifier = consistencyModifier;
   }
 
-  public List<IndexPropertyKey> getProps() {
+  public List<PropertyKey> getProps() {
     return this.props;
   }
 
-  public void setProps(List<IndexPropertyKey> props) {
+  public void setProps(List<PropertyKey> props) {
     this.props = props;
   }
 

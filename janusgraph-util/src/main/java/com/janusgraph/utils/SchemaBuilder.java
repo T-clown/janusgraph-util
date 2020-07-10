@@ -13,7 +13,6 @@ import java.util.List;
 
 import com.janusgraph.entity.EdgeLabelKey;
 import com.janusgraph.entity.IndexKey;
-import com.janusgraph.entity.IndexPropertyKey;
 import com.janusgraph.entity.PropertyKey;
 import com.janusgraph.entity.Schema;
 import com.janusgraph.entity.VertexLabelKey;
@@ -99,7 +98,7 @@ public class SchemaBuilder {
                 if (!mgmt.containsGraphIndex(i.getName())) {
                     JanusGraphManagement.IndexBuilder index = mgmt.buildIndex(i.getName(), i.getType().getClazz());
                     // 处理索引字段
-                    for (IndexPropertyKey p : i.getProps()) {
+                    for (PropertyKey p : i.getProps()) {
                         if (mgmt.containsPropertyKey(p.getName())) {
                             org.janusgraph.core.PropertyKey key = mgmt.getPropertyKey(p.getName());
                             if (p.getMapping() == null || Mapping.NULL == p.getMapping()) {
