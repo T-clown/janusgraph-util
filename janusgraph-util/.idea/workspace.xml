@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3f94793-b966-451e-89b8-ef3f8fffc3e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/config/GremlinConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GremlinUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d9f5783bc08cfbfcd8129fc5c2565f3ab03d7f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexPropertyKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/janusgraph/utils/GraphFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/janusgraph/utils/GraphFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/janusgraph-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/janusgraph-util-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/janusgraph/utils/GraphFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/janusgraph-util-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../python/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../python/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../python/.idea/modules.xml" beforeDir="false" />
@@ -47,31 +51,31 @@
     <option name="autoscrollToSource" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="janusgraph-util" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/enums/DataType.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="684">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
               <folding>
-                <element signature="docComment;field#Byte#0;class#DataType#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/EdgeLabelKey.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
               <folding>
-                <element signature="e#0#1504#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -79,10 +83,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-core/3.4.6/gremlin-core-3.4.6.jar!/org/apache/tinkerpop/gremlin/structure/Graph.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+            <state relative-caret-position="361">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="32" />
+              <folding>
+                <element signature="e#2086#2087#0" expanded="true" />
+                <element signature="e#2139#2140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/config/GremlinConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/config/ThreadPoolConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,10 +120,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GremlinUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+            <state relative-caret-position="233">
+              <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,80 +132,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/PropertyKey.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-core/3.4.6/gremlin-core-3.4.6.jar!/org/apache/tinkerpop/gremlin/process/traversal/dsl/graph/GraphTraversalSource.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#1614#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="142">
+              <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-core/3.4.6/gremlin-core-3.4.6.jar!/org/apache/tinkerpop/gremlin/process/traversal/dsl/graph/GraphTraversal.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#1308#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="281" column="59" selection-start-line="281" selection-start-column="59" selection-end-line="281" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/VertexLabelKey.java">
+        <entry file="jar://D:/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#909#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="1230" column="11" selection-start-line="1230" selection-start-column="11" selection-end-line="1230" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/enums/IndexType.java">
+        <entry file="jar://D:/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="160">
+              <caret line="351" column="32" selection-start-line="351" selection-start-column="32" selection-end-line="351" selection-end-column="32" />
               <folding>
-                <element signature="docComment;field#Vertex#0;class#IndexType#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/enums/Mapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-              <folding>
-                <element signature="docComment;field#DEFAULT#0;class#Mapping#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/enums/MixedIndexType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="docComment;field#search#0;class#MixedIndexType#0" expanded="true" />
+                <element signature="e#15215#15216#0" expanded="true" />
+                <element signature="e#15264#15265#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,6 +187,7 @@
       <find>AstyanaxStoreManager</find>
       <find>file</find>
       <find>props</find>
+      <find>connectionPool</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,7 +197,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/demo/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/EdgeLabelKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexPropertyKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/PropertyKey.java" />
@@ -223,6 +212,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/config/GremlinConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/pool/GremlinConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/pool/GremlinClientPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/pool/HoneycombConnectionSwitcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/UnsafeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/pool/GremlinClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/config/ThreadPoolConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GremlinUtils.java" />
       </list>
     </option>
   </component>
@@ -259,7 +257,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,7 +297,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="janusgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="janusgraph-util" type="b2602c69:ProjectViewProjectNode" />
@@ -347,16 +344,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594351209353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594366251611" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14648438" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -365,6 +364,8 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.janusgraph.utils" />
+      <recent name="com.janusgraph.pool" />
+      <recent name="com.janusgraph.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OS-Projects\janusgraph-util\src\main\java\com\janusgraph\enums" />
@@ -445,7 +446,8 @@
       <workItem from="1594195168076" duration="8069000" />
       <workItem from="1594261611426" duration="1168000" />
       <workItem from="1594280759125" duration="771000" />
-      <workItem from="1594287461625" duration="8043000" />
+      <workItem from="1594287461625" duration="10954000" />
+      <workItem from="1594362699229" duration="3508000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1594289215877</created>
@@ -475,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594349766446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dev">
+      <created>1594351229798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594351229798</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dev">
+      <created>1594351770755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594351770755</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -490,107 +506,60 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18051000" />
+    <option name="totallyTimeSpent" value="24470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Favorites" order="0" sideWeight="0.5035461" side_tool="true" weight="0.261924" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Alibaba Cloud Explorer" order="3" weight="0.32983023" />
-      <window_info id="Learn" order="4" />
+      <window_info id="Alibaba Cloud Explorer" order="3" sideWeight="0.4989518" weight="0.32983023" />
+      <window_info id="Learn" order="4" weight="0.32983023" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.261924" />
-      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.5391791" />
-      <window_info anchor="bottom" id="Sequence" order="1" />
-      <window_info anchor="bottom" id="CheckStyle" order="2" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5004042" side_tool="true" weight="0.5914179" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="4" />
-      <window_info anchor="bottom" id="Docker" order="5" weight="0.3283582" />
-      <window_info anchor="bottom" id="SonarLint" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.18843284" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3283582" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="11" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
-      <window_info anchor="bottom" id="Tail" order="13" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
-      <window_info anchor="bottom" id="Message" order="15" />
-      <window_info anchor="bottom" id="Find" order="16" />
-      <window_info anchor="bottom" id="Run" order="17" sideWeight="0.4995958" weight="0.50373137" />
-      <window_info anchor="bottom" id="Debug" order="18" weight="0.36940297" />
-      <window_info anchor="bottom" id="Cvs" order="19" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="20" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="21" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4964539" visible="true" weight="0.26596606" />
+      <window_info id="Structure" order="8" sideWeight="0.5010482" side_tool="true" weight="0.261924" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.08395522" />
+      <window_info anchor="bottom" id="Sequence" order="2" />
+      <window_info anchor="bottom" id="CheckStyle" order="3" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5004042" side_tool="true" weight="0.5914179" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.18843284" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3283582" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="13" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="15" />
+      <window_info anchor="bottom" id="Message" order="16" />
+      <window_info anchor="bottom" id="Find" order="17" />
+      <window_info anchor="bottom" id="Run" order="18" sideWeight="0.4995958" weight="0.50373137" />
+      <window_info anchor="bottom" id="Debug" order="19" weight="0.36940297" />
+      <window_info anchor="bottom" id="Cvs" order="20" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="21" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="22" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Redis Servers" order="1" weight="0.32983023" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Word Book" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Word Book" order="2" side_tool="true" />
+      <window_info anchor="right" id="Redis Servers" order="3" weight="0.32983023" />
       <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
-      <window_info anchor="right" id="Alibaba Function Compute" order="5" weight="0.32983023" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Alibaba Log Console" order="8" />
-      <window_info anchor="right" id="RestServices" order="9" weight="0.32983023" />
+      <window_info anchor="right" id="RestServices" order="5" weight="0.32983023" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="6" weight="0.32983023" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Alibaba Log Console" order="9" />
       <window_info anchor="right" id="SciView" order="10" weight="0.32983023" />
       <window_info anchor="right" id="Maven" order="11" weight="0.32983023" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="12" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="13" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="14" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Alibaba Cloud Explorer" order="3" weight="0.32983023" />
-      <window_info id="Learn" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.2497979" />
-      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.81902987" />
-      <window_info anchor="bottom" id="Sequence" order="1" />
-      <window_info anchor="bottom" id="CheckStyle" order="2" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5004042" side_tool="true" weight="0.5914179" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="4" />
-      <window_info anchor="bottom" id="Docker" order="5" weight="0.3283582" />
-      <window_info anchor="bottom" id="SonarLint" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.18843284" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3283582" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="11" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
-      <window_info anchor="bottom" id="Tail" order="13" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
-      <window_info anchor="bottom" id="Message" order="15" />
-      <window_info anchor="bottom" id="Find" order="16" />
-      <window_info anchor="bottom" id="Run" order="17" sideWeight="0.4995958" visible="true" weight="0.05597015" />
-      <window_info anchor="bottom" id="Debug" order="18" weight="0.36007464" />
-      <window_info anchor="bottom" id="Cvs" order="19" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="20" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="21" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Redis Servers" order="1" weight="0.32983023" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Word Book" order="3" side_tool="true" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
-      <window_info anchor="right" id="Alibaba Function Compute" order="5" weight="0.32983023" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Alibaba Log Console" order="8" />
-      <window_info anchor="right" id="RestServices" order="9" />
-      <window_info anchor="right" id="SciView" order="10" weight="0.32983023" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.32983023" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="12" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="13" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="14" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -710,17 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/demo/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/demo/App.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/janusgraph/janusgraph-core/0.5.2/janusgraph-core-0.5.2.jar!/org/janusgraph/core/schema/EdgeLabelMaker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -728,26 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/janusgraph/utils/SchemaBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/janusgraph/janusgraph-core/0.5.2/janusgraph-core-0.5.2.jar!/org/janusgraph/core/schema/JanusGraphManagement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/janusgraph/utils/SchemaBuilder.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/janusgarph.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -775,16 +715,6 @@
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#3123#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,6 +757,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexPropertyKey.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/janusgraph/janusgraph-core/0.5.2/janusgraph-core-0.5.2.jar!/org/janusgraph/core/schema/JanusGraphManagement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="55" column="68" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/janusgraph/janusgraph-core/0.5.2/janusgraph-core-0.5.2.jar!/org/janusgraph/core/schema/SchemaAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/EdgeLabelKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -834,40 +789,6 @@
           <folding>
             <element signature="e#0#1504#0" expanded="true" />
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/VertexLabelKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/enums/IndexType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="docComment;field#Vertex#0;class#IndexType#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -882,31 +803,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexPropertyKey.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/Schema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="80">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#0#1308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/IndexKey.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/entity/VertexLabelKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-driver/3.4.6/gremlin-driver-3.4.6.jar!/org/apache/tinkerpop/gremlin/driver/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/pool/GremlinClientSwitcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/enums/IndexType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="docComment;field#Vertex#0;class#IndexType#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/pool/GremlinClientPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-driver/3.4.6/gremlin-driver-3.4.6.jar!/org/apache/tinkerpop/gremlin/driver/ConnectionPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-driver/3.4.6/gremlin-driver-3.4.6.jar!/org/apache/tinkerpop/gremlin/driver/message/RequestMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-driver/3.4.6/gremlin-driver-3.4.6.jar!/org/apache/tinkerpop/gremlin/driver/Client.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4958">
+          <caret line="377" column="59" selection-start-line="377" selection-start-column="59" selection-end-line="377" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/pool/GremlinClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/UnsafeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE.jar!/org/springframework/objenesis/instantiator/util/UnsafeUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="351" column="32" selection-start-line="351" selection-start-column="32" selection-end-line="351" selection-end-column="32" />
+          <folding>
+            <element signature="e#15215#15216#0" expanded="true" />
+            <element signature="e#15264#15265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="1230" column="11" selection-start-line="1230" selection-start-column="11" selection-end-line="1230" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-core/3.4.6/gremlin-core-3.4.6.jar!/org/apache/tinkerpop/gremlin/process/traversal/dsl/graph/GraphTraversal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="281" column="59" selection-start-line="281" selection-start-column="59" selection-end-line="281" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-core/3.4.6/gremlin-core-3.4.6.jar!/org/apache/tinkerpop/gremlin/process/traversal/dsl/graph/GraphTraversalSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tinkerpop/gremlin-core/3.4.6/gremlin-core-3.4.6.jar!/org/apache/tinkerpop/gremlin/structure/Graph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="e#2086#2087#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GraphFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/SchemaBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+        <state relative-caret-position="190">
+          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/config/ThreadPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/config/GremlinConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/janusgraph/utils/GremlinUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
