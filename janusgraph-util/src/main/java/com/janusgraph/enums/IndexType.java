@@ -10,12 +10,15 @@ import org.apache.tinkerpop.gremlin.structure.Element;
 import org.apache.tinkerpop.gremlin.structure.Vertex;
 
 public enum IndexType {
+  /**
+   *
+   */
   Vertex(Vertex.class),
   Edge(Edge.class);
 
   private Class<? extends Element> clazz;
 
-  private IndexType(Class<? extends Element> clazz) {
+  IndexType(Class<? extends Element> clazz) {
     this.clazz = clazz;
   }
 

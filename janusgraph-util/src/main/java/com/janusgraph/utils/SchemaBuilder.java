@@ -7,6 +7,7 @@
  */
 package com.janusgraph.utils;
 
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
@@ -32,20 +33,15 @@ public class SchemaBuilder {
     public SchemaBuilder() {
     }
 
-    public static void buildSchema(Schema schema) {
-        GraphFactory graphFactory = new GraphFactory();
-        JanusGraphManagement mgmt = graphFactory.getGraph().openManagement();
+    public static void buildSchema(Schema schema) throws IOException {
 
-        try {
+        try (GraphFactory factory = new GraphFactory()) {
+            JanusGraphManagement mgmt = factory.getGraph().openManagement();
             makePropertyKey(mgmt, schema.getProps());
             makeVertexLabel(mgmt, schema.getVertices());
             makeEdgeLabel(mgmt, schema.getEdges());
             buildIndex(mgmt, schema.getIndexes());
             mgmt.commit();
-        } catch (Exception var7) {
-            log.error("e:{}", var7);
-        } finally {
-            graphFactory.close();
         }
 
     }

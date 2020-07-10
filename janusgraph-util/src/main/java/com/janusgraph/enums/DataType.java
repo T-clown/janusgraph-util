@@ -6,6 +6,9 @@
 package com.janusgraph.enums;
 
 public enum DataType {
+  /**
+   *
+   */
   Byte(Byte.class),
   Short(Short.class),
   Char(Character.class),
@@ -17,11 +20,11 @@ public enum DataType {
   String(String.class),
   Enum(Enum.class),
   Class(Class.class),
-  NULL((Class)null);
+  NULL(null);
 
   private Class<?> clazz;
 
-  private DataType(Class<?> clazz) {
+  DataType(Class<?> clazz) {
     this.clazz = clazz;
   }
 
