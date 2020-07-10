@@ -32,7 +32,7 @@ public class SchemaBuilder {
     public SchemaBuilder() {
     }
 
-    public static void buildSchema(Schema schema) throws IOException {
+    public static void buildSchema(Schema schema) {
 
         try (GraphFactory factory = new GraphFactory()) {
             JanusGraphManagement mgmt = factory.getGraph().openManagement();
@@ -41,6 +41,8 @@ public class SchemaBuilder {
             makeEdgeLabel(mgmt, schema.getEdges());
             buildIndex(mgmt, schema.getIndexes());
             mgmt.commit();
+        } catch (Exception e) {
+            log.error("Schema Build Failed,e:{}", e.getMessage());
         }
 
     }
