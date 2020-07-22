@@ -1,6 +1,7 @@
 com\janusgraph\utils\SchemaBuilder.class
 com\janusgraph\enums\Mapping.class
 com\janusgraph\utils\GraphFactory.class
+com\janusgraph\utils\HttpUtil.class
 com\janusgraph\entity\VertexLabelKey.class
 com\janusgraph\enums\MixedIndexType.class
 com\janusgraph\config\GremlinConfig.class
@@ -10,5 +11,6 @@ com\janusgraph\entity\PropertyKey.class
 com\janusgraph\entity\EdgeLabelKey.class
 com\janusgraph\utils\GremlinUtils.class
 com\janusgraph\entity\IndexKey.class
+com\janusgraph\utils\JsonUtil.class
 com\janusgraph\enums\IndexType.class
 com\janusgraph\enums\DataType.class
