@@ -18,6 +18,9 @@ import org.janusgraph.graphdb.database.management.ManagementSystem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.addV;
+import static org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.unfold;
+
 @Slf4j
 @Component
 public class GremlinUtils {
@@ -37,6 +40,23 @@ public class GremlinUtils {
                 vertices.get(i).forEach((k, v) -> traversal.property(k, v));
             }
         }
+        traversal.next();
+    }
+
+    /**
+     * g.V().hasLabel("label").has("name", givenName).fold().coalesce(unfold(),addV("label").property("name", givenName))
+     * @param g
+     * @param label
+     * @param uniqueProps
+     * @param props
+     */
+    public static void addVDistinct(GraphTraversalSource g, String label, Map<String, Object> uniqueProps,
+                                    Map<String, Object> props) {
+        GraphTraversal<Vertex, Vertex> traversal = g.V().hasLabel(label);
+        uniqueProps.forEach(traversal::has);
+        GraphTraversal<Object, Vertex> addV = addV(label);
+        props.forEach((k, v) -> addV.property(k, v));
+        traversal.fold().coalesce(unfold(),addV);
         traversal.next();
     }
 
